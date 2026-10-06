@@ -1,0 +1,5 @@
+aantal_tjirps_per_minuut = int(input())
+temp_fahr = 50 + ((aantal_tjirps_per_minuut - 40) / 4)
+temp_celc = 10 + ((aantal_tjirps_per_minuut - 40) / 7)
+print(f"temperatuur (Fahrenheit): {temp_fahr}")
+print(f"temperatuur (Celsius): {temp_celc}")
